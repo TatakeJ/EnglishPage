@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folleto - Lengua Extranjera IV</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="back-button">
+                <span class="back-icon">←</span>
+                <span class="back-text">Volver</span>
+            </a>
+            <h1 class="header-title">Lengua Extranjera IV</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-content">
+            <div class="page-content">
+                <h2 class="page-title">Finland Brochure</h2>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/images/face1.png" alt="Finland Brochure - Page 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/face2.png" alt="Finland Brochure - Page 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/face3.png" alt="Finland Brochure - Page 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/face4.png" alt="Finland Brochure - Page 4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/face5.png" alt="Finland Brochure - Page 5">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/images/face6.png" alt="Finland Brochure - Page 6">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="changeSlide(-1)">
+                            <span class="carousel-arrow">‹</span>
+                        </button>
+                        <button class="carousel-control next" onclick="changeSlide(1)">
+                            <span class="carousel-arrow">›</span>
+                        </button>
+                    </div>
+                    <div class="carousel-indicators">
+                        <span class="indicator active" onclick="goToSlide(0)"></span>
+                        <span class="indicator" onclick="goToSlide(1)"></span>
+                        <span class="indicator" onclick="goToSlide(2)"></span>
+                        <span class="indicator" onclick="goToSlide(3)"></span>
+                        <span class="indicator" onclick="goToSlide(4)"></span>
+                        <span class="indicator" onclick="goToSlide(5)"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p class="university">Universidad de Cundinamarca - Extención Soacha</p>
+            <p class="authors">Joseph Barreto - Nicolas Rodriguez - Johan Rico - Santiago Iriarte</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/carousel.js"></script>
+</body>
+</html>
